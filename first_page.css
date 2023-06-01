@@ -156,3 +156,33 @@ li {
     font-size: 16px;
     line-height: 19px;
 }
+
+.body__personal__area {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 52px 1572px 98px 82px
+}
+
+/* .my__account {
+
+} */
+
+.my__account__line {
+    width: 266px;
+    height: 1px;
+    color: gray;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.body__personal__area__center__line {
+    position: absolute;
+    width: 369px;
+    height: 0px;
+    left: 388.5px;
+    top: 374px;
+
+    border: 1px solid #D9D9D9;
+    transform: rotate(-90deg);
+}
