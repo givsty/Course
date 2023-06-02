@@ -9,6 +9,10 @@
     margin: 47px 98px 24px;
 }
 
+ul {
+    list-style: none;
+}
+
 .header__icons {
     cursor: pointer;
 }
@@ -154,5 +158,81 @@ li {
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 35px;
+}
+
+.body__personal__area {
+    margin: 52px 98px 500px;
+}
+
+.my__account__block {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.my__account__block__line {
+    border: 1px solid #D9D9D9;
+    width: 266px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.body__personal__area__center__line {
+    position: absolute;
+    width: 330px;
+    height: 0px;
+    left: 220px;
+    top: 380px;
+    border: 1px solid #D9D9D9;
+    transform: rotate(-90deg);
+}
+
+.body__personal__area__orders {
+    margin-left: 400px;
+    margin-top: -300px;
+    line-height: 34px;
+}
+
+.body__personal__area__orders__header {
+    display: flex;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;  
+}
+
+.body__personal__area__orders__first__line {
+    border: 1px solid #D9D9D9;
+    width: 886px;
+    height: 0px;
+    margin: 20px 0px;
+}
+
+.body__personal__area__orders__first {
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.body__personal__area__orders__second__line {
+    width: 886px;
+    height: 0px;
+    border: 1px solid #D9D9D9;
+    margin: 20px 0px;
+}
+
+.body__personal__area__orders__second {
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px; 
+}
+
+.body__personal__area__orders__last__line {
+    width: 886px;
+    height: 0px;
+    border: 1px solid #D9D9D9;
+    margin-top: 20px;
 }
